@@ -2,7 +2,7 @@
 {
     "output": "DP-1",
     "layer": "top", // Waybar at top layer
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 36, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 6, // Gaps between modules (4px)
     "modules-left": [
@@ -77,12 +77,12 @@
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format-source-muted": " ",
         "format-icons": {
             "headphone": " ",
             "hands-free": " ",
             "headset": " ",
-            "default": [" ", " ", " "]
+            "default": [" ", " ", "  "]
         },
         "on-click": "pavucontrol"
     },
