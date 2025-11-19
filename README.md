@@ -2,7 +2,7 @@
 
 # Install oreo rice
 1. sudo pacman -Suy git
-2. git clone https://github.com/l1qued/Oreo-hyprland.git
+2. git clone https://github.com/Rexilone/Oreo-hyprland.git
 3. cd Oreo-hyprland
 4. chmod +x install.sh
 5. ./install.sh
@@ -12,12 +12,13 @@
 1. Super + Q = kitty
 2. Super + B = zen-browser
 3. Super + R = rofi
-4. Super + E = thunar
+4. Super + E = nemo
 5. Super + S = magik worspace
 6. Super + C = kill
 7. Super + L = hyprlock
 8. Super + W = neohtop
 9. Shift + PrtSc = hyprshot (region)
+10. Ctrl + PrtSc = hyprshot (monitor)
 
 ![screenshots](./accest/2025-10-24-181839_hyprshot.png)
 
