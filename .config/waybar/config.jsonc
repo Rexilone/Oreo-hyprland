@@ -49,7 +49,8 @@
     },
     "clock": {
 	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:L%a %d, %b %Y   %H:%M }"
+        "format": "{:L%a %d, %b %Y   %H:%M }",
+    "on-click": "swaync-client -t -sw"
     },
     "cpu": {
         "format": "{usage}% ",
@@ -68,6 +69,10 @@
         "format-ethernet": "",
         //"tooltip-format": "{ifname} via {gwaddr} ",
         "format-disconnected": "⚠",
+        "tooltip-format": "{ifname}\n<b>SSID:</b> {essid}\n<b>IP:</b> {ipaddr}\n<b>Interface:</b> {ifname}\n<b>Up:</b> {bandwidthUpBits} \n<b>Down:</b> {bandwidthDownBits}",
+    "tooltip-format-wifi": "{ifname}\n<b>SSID:</b> {essid}\n<b>IP:</b> {ipaddr}\n<b>Interface:</b> {ifname}\n<b>Up:</b> {bandwidthUpBits}\n<b>Down:</b> {bandwidthDownBits}",
+    "tooltip-format-ethernet": "{ifname}\n<b>IP:</b> {ipaddr}\n<b>Interface:</b> {ifname}\n<b>Up:</b> {bandwidthUpBits}\n<b>Down:</b> {bandwidthDownBits}",
+    "tooltip-format-disconnected": "Disconnected",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
     "pulseaudio": {
