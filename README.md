@@ -1,8 +1,8 @@
 # Oreo hyprland rice
 ### Utilites
 + Notification daemon - [swaync](https://github.com/ErikReider/SwayNotificationCenter)
-+ Terminal emulator - [Kitty](https://github.com/kovidgoyal/kitty)
 + Wallpaper daemon - [swww](https://github.com/LGFae/swww)
++ Terminal emulator - [Kitty](https://github.com/kovidgoyal/kitty)
 + Status bar - [Waybar](https://github.com/Alexays/Waybar)
 + Fish Theme - [Tide](https://github.com/IlanCosman/tide)
 + Laucher - [Rofi](https://archlinux.org/packages/extra/x86_64/rofi-wayland/)
