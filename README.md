@@ -1,5 +1,5 @@
 # Oreo hyprland rice
-## Utilites
+### Utilites
 + Notification daemon - [swaync](https://github.com/ErikReider/SwayNotificationCenter)
 + Wallpaper daemon - [swww](https://github.com/LGFae/swww)
 + Terminal emulator - [Kitty](https://github.com/kovidgoyal/kitty)
