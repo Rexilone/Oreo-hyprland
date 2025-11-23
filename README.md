@@ -7,7 +7,6 @@
 4. chmod +x install.sh
 5. ./install.sh
 
-
 # binds
 1. Super + Q = kitty
 2. Super + B = zen-browser
@@ -19,6 +18,8 @@
 8. Super + W = neohtop
 9. Shift + PrtSc = hyprshot (region)
 10. Ctrl + PrtSc = hyprshot (monitor)
+
+# Screenshots
 
 ![screenshots](./accest/2025-10-24-181839_hyprshot.png)
 
