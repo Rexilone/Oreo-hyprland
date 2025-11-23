@@ -17,16 +17,16 @@
 5. ./install.sh
 
 # binds
-1. Super + Q = kitty
-2. Super + B = zen-browser
-3. Super + R = rofi
-4. Super + E = nemo
-5. Super + S = magik worspace
-6. Super + C = kill
-7. Super + L = hyprlock
-8. Super + W = neohtop
-9. Shift + PrtSc = hyprshot (region)
-10. Ctrl + PrtSc = hyprshot (monitor)
++ Super + Q = kitty
++ Super + B = zen-browser
++ Super + R = rofi
++ Super + E = nemo
++ Super + S = magik worspace
++ Super + C = kill
++ Super + L = hyprlock
++ Super + W = neohtop
++ Shift + PrtSc = hyprshot (region)
++ Ctrl + PrtSc = hyprshot (monitor)
 
 # Screenshots
 
