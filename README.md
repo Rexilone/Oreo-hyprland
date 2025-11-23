@@ -3,7 +3,7 @@
 + Notification daemon - [swaync](https://github.com/ErikReider/SwayNotificationCenter)
 + Wallpaper daemon - [swww](https://github.com/LGFae/swww)
 + Terminal emulator - [Kitty](https://github.com/kovidgoyal/kitty)
-+ file manager - [Nemo](https://github.com/linuxmint/nemo)
++ File manager - [Nemo](https://github.com/linuxmint/nemo)
 + Status bar - [Waybar](https://github.com/Alexays/Waybar)
 + Fish Theme - [Tide](https://github.com/IlanCosman/tide)
 + Laucher - [Rofi](https://archlinux.org/packages/extra/x86_64/rofi-wayland/)
