@@ -1,4 +1,12 @@
 # Oreo hyprland rice
+### Utilites
++ Notification daemon - [swaync](https://github.com/ErikReider/SwayNotificationCenter)
++ Terminal emulator - [Kitty](https://github.com/kovidgoyal/kitty)
++ Wallpaper daemon - [swww](https://github.com/LGFae/swww)
++ Status bar - [Waybar](https://github.com/Alexays/Waybar)
++ Fish Theme - [Tide](https://github.com/IlanCosman/tide)
++ Laucher - [Rofi](https://archlinux.org/packages/extra/x86_64/rofi-wayland/)
++ Shell - [Fish](https://github.com/fish-shell/fish-shell)
 
 # Install oreo rice
 1. sudo pacman -Suy git
