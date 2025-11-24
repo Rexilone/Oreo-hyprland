@@ -74,6 +74,7 @@
     "tooltip-format-ethernet": "{ifname}\n<b>IP:</b> {ipaddr}\n<b>Interface:</b> {ifname}\n<b>Up:</b> {bandwidthUpBits}\n<b>Down:</b> {bandwidthDownBits}",
     "tooltip-format-disconnected": "Disconnected",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
+    "on-click": "nm-connection-editor"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
