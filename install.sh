@@ -241,7 +241,7 @@ echo -e ""
 
 # Установка пакетов pacman
 dot_animation "${messages["installing_packages"]}"
-sudo pacman -Syu --noconfirm hyprland hyprshot hyprpicker xdg-desktop-portal-hyprland qt5-wayland qt6-wayland kitty waybar fastfetch viewnior swaync nwg-look mpv swww hyprlock fish neovim papirus-icon-theme rofi pavucontrol vscode-css-languageserver ttf-font-awesome otf-font-awesome ttf-jetbrains-mono nerd-fonts nftables ttf-dejavu blueberry inetutils scrcpy nemo file-roller p7zip unrar tar tumbler ntfs-3g exfatprogs fuse2 fuse3 dosfstools gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb udisks2 gvfs-smb
+sudo pacman -Syu --noconfirm hyprland hyprshot hyprpicker xdg-desktop-portal-hyprland sddm polkit-kde-agent grim slurp uwsm dunst qt5-wayland qt6-wayland kitty waybar fastfetch viewnior swaync nwg-look mpv swww hyprlock fish neovim papirus-icon-theme rofi pavucontrol vscode-css-languageserver ttf-font-awesome otf-font-awesome ttf-jetbrains-mono nerd-fonts nftables ttf-dejavu blueberry inetutils scrcpy nemo file-roller p7zip unrar tar tumbler ntfs-3g exfatprogs fuse2 fuse3 dosfstools gvfs gvfs-afc gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb udisks2 gvfs-smb intel-media-driver libva-intel-driver mesa vulkan-intel vulkan-nouveau libva-mesa-driver vulkan-radeon xf86-video-amdgpu xf86-video-ati xf86-video-nouveau xorg-server xorg-xinit
 
 # Копирование конфигов
 cp -r .config/* ~/.config/
