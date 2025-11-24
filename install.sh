@@ -268,15 +268,15 @@ chmod +x ./Graphite-gtk-theme/other/grub2/install.sh
 # Выдача прав на выполнение скриптов
 
 chmod +x ~/.config/swww/swww.sh 
+chmod +x ~/.config/swww/swww-rofi.sh
+chmod +x ~/.config/rofi/launcher.sh
+chmod +x ~/.config/rofi/scripts/switch-theme.sh
 
 # Смена shella
 chsh -s /bin/fish 
 
-# ============ КОНЕЦ ПОЛЬЗОВАТЕЛЬСКИХ ЭЛЕМЕНТОВ ============
+# ============ The end... ============
 
-# =============================================
-# FINAL SECTION
-# =============================================
 echo -e ""
 print_success
 echo -e "${GREEN}${messages["completed"]}${NC}"
@@ -287,7 +287,6 @@ echo -e "${RED}${messages["reboot_warning"]}${NC}"
 echo -e "${YELLOW}${messages["cancel_hint"]}${NC}"
 echo -e ""
 
-# Countdown animation
 for i in {10..1}; do
     if [[ $lang_choice == "2" ]]; then
         printf "\r${RED}Перезагрузка через %2d секунд...${NC}" $i
@@ -300,5 +299,4 @@ done
 echo -e "\n${GREEN}${messages["rebooting"]}${NC}"
 sleep 10
 
-# Reboot system
 reboot
