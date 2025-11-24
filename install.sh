@@ -275,6 +275,9 @@ chmod +x ~/.config/rofi/scripts/switch-theme.sh
 # Смена shella
 chsh -s /bin/fish 
 
+# chs
+systemctl enable sddm
+
 # ============ The end... ============
 
 echo -e ""
